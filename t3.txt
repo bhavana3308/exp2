@@ -1,0 +1,123 @@
+experiment 2
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git --version
+git version 2.56.0.windows.4
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git config --global user.name "bhavana3308"
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git config --global user.email "bhavanavaka3308@gmail.com"
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git config --global --list
+user.name=bhavana3308
+user.email=bhavanavaka3308@gmail.com
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.ff=only
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name=bhavana3308
+user.email=bhavanavaka3308@gmail.com
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ git config --global --list
+user.name=bhavana3308
+user.email=bhavanavaka3308@gmail.com
+
+Bhavana Reddy@Bhavana UCRT64 ~
+$ cd d:
+
+Bhavana Reddy@Bhavana UCRT64 /d
+$ cd Y25ACS639
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639
+$ mkdir GITLAB
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639
+$ cd gitlab
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab
+$ git init
+Initialized empty Git repository in D:/Y25ACS639/GITLAB/.git/
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ ls
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ ls  -la
+total 0
+drwxr-xr-x 1 Bhavana Reddy 197121 0 Oct 31 19:45 ./
+drwxr-xr-x 1 Bhavana Reddy 197121 0 Oct 31 19:45 ../
+drwxr-xr-x 1 Bhavana Reddy 197121 0 Oct 31 19:45 .git/
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ ls  -l
+total 0
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ ls  -a
+./  ../  .git/
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ cd  .git
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab/.git (GIT_DIR!)
+$ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab/.git (GIT_DIR!)
+$ cd  ..
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ git config --global --list
+user.name=bhavana3308
+user.email=bhavanavaka3308@gmail.com
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.ff=only
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name=bhavana3308
+user.email=bhavanavaka3308@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Bhavana Reddy@Bhavana UCRT64 /d/Y25ACS639/gitlab (main)
+$
